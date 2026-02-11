@@ -1,0 +1,57 @@
+/* Fase 3: Propiedades del Body (Punto 8) */
+body {
+    background-color: #f0f2f0; /* Gris azulado muy claro para legibilidad */
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    max-width: 800px;
+    margin: 0 auto; /* Centra todo el bloque en la pantalla */
+    padding: 30px;
+    line-height: 1.6;
+}
+
+/* Fase 3: Estilos de Texto (Punto 9) */
+h1 {
+    color: #2d5a27; /* Verde tenis oscuro */
+    font-size: 32px;
+    text-transform: uppercase;
+}
+
+h2 {
+    color: #005f73; /* Azul profesional */
+    font-size: 24px;
+    border-left: 5px solid #2d5a27;
+    padding-left: 10px;
+}
+
+p {
+    font-size: 16px;
+    text-align: justify; /* Hace que el texto se vea ordenado */
+}
+
+/* Atractivo Visual (Punto 10) */
+img {
+    display: block;
+    margin: 15px auto;
+    width: 100%; /* Se adapta al ancho del contenedor */
+    max-width: 500px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background: #ccc;
+    margin: 30px 0;
+}
+
+a {
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #000000;
+    text-decoration: underline;
+}
